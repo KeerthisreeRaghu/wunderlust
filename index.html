@@ -44,19 +44,22 @@
                     <source media="(min-width: 1024px)" srcset="./images/majorca-waves-L.png">
                     <source media="(max-width: 780px)" srcset="./images/majorca-waves-M.png">
                     <source media="(max-width: 320px)" srcset="./images/majorca-waves-S.png">
-                    <img src="./images/majorca-waves-L.png" alt="Majorca Waves">
+                    <img src="./images/majorca-waves-L.png"
+                        alt="Turquoise blue waters with white wave caps crashing against a rock cliff">
                 </picture>
                 <picture>
                     <source media="(min-width: 1024px)" srcset="./images/majorca-beach-L.png">
                     <source media="(max-width: 780px)" srcset="./images/majorca-beach-M.png">
                     <source media="(max-width: 320px)" srcset="./images/majorca-beach-S.png">
-                    <img src="./images/majorca-beach-L.png" alt="Majorca Beach">
+                    <img src="./images/majorca-beach-L.png"
+                        alt="Turquoise blue waters, with white sands, surrounded by small cliffs and greenery">
                 </picture>
                 <picture>
                     <source media="(min-width: 1024px)" srcset="./images/majorca-cove-L.png">
                     <source media="(max-width: 780px)" srcset="./images/majorca-cove-M.png">
                     <source media="(max-width: 320px)" srcset="./images/majorca-cove-S.png">
-                    <img src="./images/majorca-cove-L.png" alt="Majorca Cove">
+                    <img src="./images/majorca-cove-L.png"
+                        alt="Deep blue water leading to the horizon with the island and trees in the foreground">
                 </picture>
             </section>
 
@@ -153,7 +156,8 @@
                         <source media="(min-width: 1024px)" srcset="./images/miranda-blake-L.png">
                         <source media="(max-width: 780px)" srcset="./images/miranda-blake-M.png">
                         <source media="(max-width: 320px)" srcset="./images/miranda-blake-S.png">
-                        <img src="./images/miranda-blake-L.png" alt="Profile photo of Miranda Blake">
+                        <img src="./images/miranda-blake-L.png"
+                            alt="Miranda Blake has a blonde bob and is wearing dark sunglasses">
                     </picture>
                     <dl>
                         <dt>Traveling From:</dt>
@@ -168,7 +172,8 @@
                         <source media="(min-width: 1024px)" srcset="./images/max-winter-L.png">
                         <source media="(max-width: 780px)" srcset="./images/max-winter-M.png">
                         <source media="(max-width: 320px)" srcset="./images/max-winter-S.png">
-                        <img src="./images/max-winter-L.png" alt="Profile photo of Max Winter">
+                        <img src="./images/max-winter-L.png"
+                            alt="Max has light brown hair, a beard, and is wearing a brown shirt">
                     </picture>
                     <dl>
                         <dt>Traveling From:</dt>
@@ -183,7 +188,8 @@
                         <source media="(min-width: 1024px)" srcset="./images/ines-villegoes-L.png">
                         <source media="(max-width: 780px)" srcset="./images/ines-villegoes-M.png">
                         <source media="(max-width: 320px)" srcset="./images/ines-villegoes-S.png">
-                        <img src="./images/ines-villegoes-L.png" alt="Profile photo of Inés Villegoes">
+                        <img src="./images/ines-villegoes-L.png"
+                            alt="Inés has brown hair with light brown highlights and is wearing a police vest over a brown shirt">
                     </picture>
                     <dl>
                         <dt>Traveling From:</dt>
@@ -198,7 +204,8 @@
                         <source media="(min-width: 1024px)" srcset="./images/carmen-lorenzo-L.png">
                         <source media="(max-width: 780px)" srcset="./images/carmen-lorenzo-M.png">
                         <source media="(max-width: 320px)" srcset="./images/carmen-lorenzo-S.png">
-                        <img src="./images/carmen-lorenzo-L.png" alt="Profile photo of Carmen Lorenzo">
+                        <img src="./images/carmen-lorenzo-L.png"
+                            alt="Carmen Lorenzo has long, dark brown hair and is wearing gold hoop earrings">
                     </picture>
                     <dl>
                         <dt>Traveling From:</dt>
@@ -283,68 +290,56 @@
         <section>
             <h2>Contact Us</h2>
             <form id="contactForm">
-                <div>
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required>
-                </div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Enter first name" required>
 
-                <div>
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required>
-                </div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Enter last name" required>
 
-                <div>
-                    <fieldset>
-                        <legend>Contact Information</legend>
-                        <label for="email">Enter your email</label>
-                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                        <label for="phone">Enter your phone number</label>
-                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
-                    </fieldset>
-                </div>
-                
-                <div>
-                    <fieldset>
-                        <legend>Preferred Contact Method</legend>
-                        <input type="radio" id="contactEmail" name="contact" required>
-                        <label for="contactEmail">Email</label>
-                        <input type="radio" id="contactText" name="contact">
-                        <label for="contactText">Text</label>
-                        <input type="radio" id="contactPhone" name="contact">
-                        <label for="contactPhone">Phone</label>
-                    </fieldset>
-                </div>
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label for="email">Enter your email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    <label for="phone">Enter your phone number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                </fieldset>
 
-                <div>
-                    <fieldset>
-                        <legend>Destination</legend>
-                        <select id="destination" name="destination">
-                            <option value="Barcelona">Barcelona</option>
-                            <option value="Granada">Granada</option>
-                            <option value="Ibiza">Ibiza</option>
-                            <option value="Madrid">Madrid</option>
-                            <option value="Majorca">Majorca</option>
-                            <option value="Seville">Seville</option>
-                            <option value="Tenerife">Tenerife</option>
-                            <option value="Valencia">Valencia</option>
-                        </select>
-                    </fieldset>
-                </div>
+                <fieldset>
+                    <legend>Preferred Contact Method</legend>
+                    <input type="radio" id="contactEmail" name="contact" required>
+                    <label for="contactEmail">Email</label>
+                    <input type="radio" id="contactText" name="contact">
+                    <label for="contactText">Text</label>
+                    <input type="radio" id="contactPhone" name="contact">
+                    <label for="contactPhone">Phone</label>
+                </fieldset>
 
-                <div>
-                    <fieldset>
-                        <legend>Travel Time</legend>
-                        <select id="travelTime" name="travelTime">
-                            <option value="Fall">Fall</option>
-                            <option value="Winter">Winter</option>
-                            <option value="Spring">Spring</option>
-                            <option value="Summer">Summer</option>
-                            <option value="Flexible">Flexible</option>
-                        </select>
-                    </fieldset>
-                </div>
+                <fieldset>
+                    <legend>Destination</legend>
+                    <select id="destination" name="destination">
+                        <option value="Barcelona">Barcelona</option>
+                        <option value="Granada">Granada</option>
+                        <option value="Ibiza">Ibiza</option>
+                        <option value="Madrid">Madrid</option>
+                        <option value="Majorca">Majorca</option>
+                        <option value="Seville">Seville</option>
+                        <option value="Tenerife">Tenerife</option>
+                        <option value="Valencia">Valencia</option>
+                    </select>
+                </fieldset>
 
-                <button type="submit">Submit</button>
+                <fieldset>
+                    <legend>Travel Time</legend>
+                    <select id="travelTime" name="travelTime">
+                        <option value="Fall">Fall</option>
+                        <option value="Winter">Winter</option>
+                        <option value="Spring">Spring</option>
+                        <option value="Summer">Summer</option>
+                        <option value="Flexible">Flexible</option>
+                    </select>
+                </fieldset>
+
+                <input type="submit" name="submitForm" id="submitForm" value="Submit Form">
             </form>
         </section>
 
