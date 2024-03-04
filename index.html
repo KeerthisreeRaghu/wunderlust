@@ -15,7 +15,8 @@
             <source media="(min-width: 1024px)" srcset="./images/logo-L.png">
             <source media="(max-width: 780px)" srcset="./images/logo-M.png">
             <source media="(max-width: 320px)" srcset="./images/logo-S.png">
-            <img src="./images/logo-L.png" alt="Illustration of island with palm trees, blue waves, and yellow background.">
+            <img src="./images/logo-L.png"
+                alt="Illustration of island with palm trees, blue waves, and yellow background.">
         </picture>
         <p>Let Wunderlust Travel help you plan the trip of your dreams!</p>
         <nav>
@@ -294,8 +295,18 @@
 
                 <div>
                     <fieldset>
-                        <legend>Method</legend>
-                        <input type="radio" id="contactEmail" name="contact">
+                        <legend>Contact Information</legend>
+                        <label for="email">Enter your email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <label for="phone">Enter your phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                    </fieldset>
+                </div>
+                
+                <div>
+                    <fieldset>
+                        <legend>Preferred Contact Method</legend>
+                        <input type="radio" id="contactEmail" name="contact" required>
                         <label for="contactEmail">Email</label>
                         <input type="radio" id="contactText" name="contact">
                         <label for="contactText">Text</label>
